@@ -22,16 +22,18 @@
 
 
 /*								HOW DOES IT WORK?
-				This function creates a raycast to check if it hits any objects.
-				If it hits something, we can use the object that was hit for further tasks.
+				Hit_box class is a useful class for an interaction process
 
-				We use the Hit_Box class frequently here. This class is useful for selecting objects
+				This class is useful for selecting objects
 				or performing tasks like turning lights on/off, among others.
 				This can be achieved by hitting the Hit_Box class, which allows us to change
 				a variable called Hit to true.
 				From there, we can execute tasks through the class itself.
 
 				NOTE : THE BEST WAY TO EXECUTE TASKS IN Hit_Box is to create a blueprint class
+				
+				IMPORTANT : Make sure to add a box, capsul, sphere... collision to this class either
+				for C++ or BP.
 
 */
 
