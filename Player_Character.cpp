@@ -21,6 +21,16 @@
 // SOFTWARE.
 
 
+/*	Formulas : 
+		GetActorForwardVector()
+  			𝑋 = 𝑐𝑜𝑠(PlayerAngle.𝜃)
+			𝑌 = 𝑠𝑖𝑛(PlayerAngle.𝜃)
+			𝑍 = 0
+
+     		
+
+*/
+
 #include "Player_Character.h"
 
 // Sets default values
